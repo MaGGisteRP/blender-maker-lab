@@ -1,26 +1,33 @@
 # Blender Maker Lab
 
-Practical guides, add-ons and tools for Blender and 3D printing.
+Практические проекты на стыке Blender, Geometry Nodes, AI и 3D-печати. У каждого продукта есть короткое постоянное имя, статья, инструкция и комплект файлов.
 
-## What's inside
-- **Articles**: step-by-step guides with screenshots (Geometry Nodes, AI-assisted workflows, 3D printing tips)
-- **Add-ons**: ready-to-install Blender extensions
-- **Assets**: sample files, models and presets
+## Проекты
 
-## Who is it for
-- 3D printer owners who want custom-fit solutions
-- Blender users interested in Geometry Nodes and AI-assisted tools
-- Designers and makers who prefer Blender over traditional CAD
+| Проект | Что делает | Материалы |
+| --- | --- | --- |
+| **Gridfinity Fit** | Подгоняет Gridfinity под ящик и готовит детали к печати | [Статья](articles/Gridfinity%20Fit/README.md) · [Установка](addons/Gridfinity%20Fit/README.md) · [Модель](assets/Gridfinity%20Fit/README.md) · [Выпуск 1.0.0](https://github.com/MaGGisteRP/blender-maker-lab/releases/tag/gridfinity-fit-v1.0.0) |
 
-## Featured
-- [Blender Geometry Nodes + AI: Automating Gridfinity Grids](articles/gridfinity-generator/README.md)
+![Gridfinity Fit — Blender и AI](articles/Gridfinity%20Fit/images/Gridfinity%20Fit%20%D0%9E%D0%B1%D0%BB%D0%BE%D0%B6%D0%BA%D0%B0.png)
 
-## Installation
-Download the add-on `.zip` from the Releases page, then in Blender:
-`Edit → Preferences → Add-ons → Install... → Enable`
+## Найти нужный материал
 
-## Contributing
-Ideas, issues and pull requests are welcome.
+- [Статьи](articles) — истории проектов и инструкции.
+- [Дополнения](addons) — код инструментов Blender.
+- [Модели и примеры печати](assets) — Blender, 3MF и STL.
+- [Система имён](docs/Naming.md) — правила для следующих проектов.
+- [История выпусков](CHANGELOG.md) — изменения публичных версий.
 
-## License
-MIT
+Название продукта одинаково во всех разделах. Версия указывается в выпуске и архиве, а имена рабочих файлов остаются стабильными.
+
+## Gridfinity Fit
+
+Для начала скачайте полный комплект из [выпуска 1.0.0](https://github.com/MaGGisteRP/blender-maker-lab/releases/tag/gridfinity-fit-v1.0.0). Откройте **Gridfinity Fit.blend** и установите **Gridfinity Fit.py**. Комплект проверен в **Blender 5.2.2 LTS**.
+
+## Обратная связь
+
+Вопросы, предложения и ошибки можно оставлять в Issues. Изменения проекта приветствуются через pull request.
+
+## Лицензия
+
+[MIT](LICENSE).
